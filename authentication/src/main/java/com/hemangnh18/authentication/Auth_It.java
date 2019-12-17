@@ -10,6 +10,7 @@ import static android.content.Context.KEYGUARD_SERVICE;
 public class Auth_It {
 
     Activity context;
+
     public static int AUTH_KEY=500;
     public Auth_It(Activity context)
     {
@@ -23,7 +24,6 @@ public class Auth_It {
 
             if (km.isKeyguardSecure()) {
                 Intent authIntent = km.createConfirmDeviceCredentialIntent("Authentication", "Hemang!");
-                context.startActivityForResult(authIntent, 500);
                 context.startActivityForResult(authIntent,AUTH_KEY);
             }
         }
