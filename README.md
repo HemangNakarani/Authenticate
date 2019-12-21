@@ -19,6 +19,14 @@ allprojects {
 
 ### 2. 
 Then add this ***implementation 'com.github.HemangNakarani:Authenticate:1.1'*** dependency in app level gradle file.
+
+```
+dependencies {
+
+    implementation 'com.github.HemangNakarani:Authenticate:1.1'
+    
+}
+```
 ![alt text](https://github.com/HemangNakarani/Authenticate/blob/master/Screenshot%20(133).png)
 
 <br>
