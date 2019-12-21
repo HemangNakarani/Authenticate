@@ -2,7 +2,17 @@
 
 ### 1. 
 Just add line given below in project Level gradle file under allprojects-> repositories.
-***maven { url 'https://jitpack.io' }***
+<br>
+```
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        maven { url 'https://jitpack.io' }
+        
+    }
+}
+```
 ![alt text](https://github.com/HemangNakarani/Authenticate/blob/master/Screenshot%20(134).png)
 
 <br>
